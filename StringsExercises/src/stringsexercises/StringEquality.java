@@ -11,8 +11,8 @@ public class StringEquality {
   public static void main(String[] args) {
     System.out.println("Running Strings02");
 
-    String name1 = "Phil";
-    String name2 = "Phil";
+    String name1 = "Ivan";
+    String name2 = new String("Ivan");
 
     if (name1 == name2) {
       System.out.println("they are equal");
