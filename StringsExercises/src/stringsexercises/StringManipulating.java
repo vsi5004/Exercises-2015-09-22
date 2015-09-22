@@ -14,7 +14,7 @@ public class StringManipulating {
    */
   public static void main(String[] args) {
     System.out.println("Running Strings02");
-    List<String> simpsons = Arrays.asList("Homer", "Marge", "Lisa", "Bart", "Maggie");
+    List<String> simpsons = Arrays.asList("Homer", "Marges", "Lisa", "Bart", "Maggie");
     String family = "";
     for (String name : simpsons) {
       family += ", " + name;
